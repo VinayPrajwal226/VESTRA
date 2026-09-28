@@ -1,0 +1,6 @@
+{
+  "name": "VESTRA — Modern Luxury Clothing & Ready-to-Wear",
+  "description": "VESTRA is an independent clothing and ready-to-wear label defined by architectural silhouettes, noble raw fibers, and meticulous tailoring.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

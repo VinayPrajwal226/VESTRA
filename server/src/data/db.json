@@ -1,0 +1,510 @@
+{
+  "users": [
+    {
+      "id": "usr_admin_1",
+      "name": "Helena Vance",
+      "email": "admin@vestra.com",
+      "password": "$2b$10$iKWrq1zbBQ6Hdj69E4P1J.UGWonhrpMG8B00pLCi2hmNgMPgDMvN6",
+      "role": "admin",
+      "phone": "+1 (555) 019-2834",
+      "address": {
+        "street": "740 Park Avenue",
+        "city": "New York",
+        "state": "NY",
+        "postalCode": "10021",
+        "country": "United States"
+      },
+      "createdAt": "2026-09-28T14:29:54.753Z"
+    },
+    {
+      "id": "usr_demo_1",
+      "name": "Julian Sterling",
+      "email": "customer@vestra.com",
+      "password": "$2b$10$T0Vm1z7KM4wQo6zFZ5YcaO.qPCivJoFdR7ea.CxtfCqzwzCPLseKS",
+      "role": "customer",
+      "phone": "+1 (555) 234-5678",
+      "address": {
+        "street": "128 Mercer Street, Apt 4B",
+        "city": "New York",
+        "state": "NY",
+        "postalCode": "10012",
+        "country": "United States"
+      },
+      "createdAt": "2026-09-28T14:29:54.855Z"
+    }
+  ],
+  "products": [
+    {
+      "id": "prd_01",
+      "title": "Double-Breasted Cashmere Trench",
+      "slug": "double-breasted-cashmere-trench",
+      "subtitle": "100% Mongolian Cashmere · Pure Horn Buttons",
+      "description": "Cut from ultra-dense 620gsm Mongolian cashmere, the Double-Breasted Trench balances architectural shoulder lines with a fluid drape. Featuring storm flap detail, natural buffalo horn buttons, deep welt pockets, and a removable self-fabric sash belt.",
+      "price": 890,
+      "originalPrice": 1100,
+      "category": "outerwear",
+      "images": [
+        "/src/assets/images/product_cashmere_overcoat_1790603713161.jpg",
+        "/src/assets/images/hero_vestra_editorial_1790603696949.jpg"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "name": "Camel Tan",
+          "hex": "#C19A6B"
+        },
+        {
+          "name": "Charcoal Black",
+          "hex": "#262626"
+        },
+        {
+          "name": "Oatmeal Taupe",
+          "hex": "#D8CAB8"
+        }
+      ],
+      "inStock": true,
+      "stockCount": 18,
+      "featured": true,
+      "isNewArrival": true,
+      "materials": "100% Mongolian Grade-A Cashmere; Bemberg cupro lining",
+      "careInstructions": "Dry clean only with hydrocarbon solvent. Steam gently. Store on wide cedar hanger.",
+      "origin": "Hand-tailored in Biella, Italy",
+      "fit": "Relaxed tailored silhouette. Fits true to size with room for light knitwear beneath.",
+      "rating": 4.9,
+      "reviewsCount": 14,
+      "reviews": [
+        {
+          "id": "rev_1",
+          "userId": "usr_demo_1",
+          "userName": "Julian S.",
+          "rating": 5,
+          "comment": "The drape and weight are truly astonishing. The cashmere has a dense, matte sheen that feels twice the price of comparable luxury houses.",
+          "createdAt": "2026-08-15T10:30:00Z"
+        },
+        {
+          "id": "rev_2",
+          "userId": "usr_gen_2",
+          "userName": "Marcus Lindqvist",
+          "rating": 5,
+          "comment": "Impeccable shoulder construction. Clean lines, zero unnecessary hardware. A generational piece.",
+          "createdAt": "2026-08-20T14:12:00Z"
+        }
+      ],
+      "createdAt": "2026-07-01T00:00:00Z"
+    },
+    {
+      "id": "prd_02",
+      "title": "Architectural Wool Single-Breasted Blazer",
+      "slug": "architectural-wool-single-breasted-blazer",
+      "subtitle": "Super 130s Virgin Wool · Half-Canvas Interior",
+      "description": "A study in contemporary restraint. Constructed with high-twist Super 130s wool from Biella, Italy. Half-canvas chest construction contours softly to the wearer over time. Clean notch lapel, horn buttons, and twin back vents.",
+      "price": 640,
+      "originalPrice": 720,
+      "category": "tailoring",
+      "images": [
+        "/src/assets/images/product_minimalist_suit_1790603724383.jpg",
+        "/src/assets/images/hero_vestra_editorial_1790603696949.jpg"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "name": "Deep Charcoal",
+          "hex": "#1C1917"
+        },
+        {
+          "name": "Chalk Navy",
+          "hex": "#1E293B"
+        }
+      ],
+      "inStock": true,
+      "stockCount": 22,
+      "featured": true,
+      "isNewArrival": true,
+      "materials": "100% Super 130s Virgin Wool; Viscose interior sleeve lining",
+      "careInstructions": "Professional dry clean only. Brush fabric with soft bristle brush between wears.",
+      "origin": "Tailored in Porto, Portugal",
+      "fit": "Modern tailored fit with slight drop shoulder and structured chest.",
+      "rating": 4.8,
+      "reviewsCount": 9,
+      "reviews": [
+        {
+          "id": "rev_3",
+          "userId": "usr_gen_3",
+          "userName": "Claire Laurent",
+          "rating": 5,
+          "comment": "Crisp, lightweight yet substantial. Perfect for year-round client meetings and evening gallery openings.",
+          "createdAt": "2026-08-18T16:00:00Z"
+        }
+      ],
+      "createdAt": "2026-07-05T00:00:00Z"
+    },
+    {
+      "id": "prd_03",
+      "title": "Pleated Wide-Leg Wool Trousers",
+      "slug": "pleated-wide-leg-wool-trousers",
+      "subtitle": "High-Rise · Double Front Pleats · Unfinished Hem",
+      "description": "Designed to accompany the Architectural Blazer or worn as an effortless standalone anchor. Cut with a generous high rise, double forward pleats, side adjusters in polished brass, and an unhemmed cuff ready for tailored personalization.",
+      "price": 380,
+      "category": "tailoring",
+      "images": [
+        "/src/assets/images/product_minimalist_suit_1790603724383.jpg",
+        "/src/assets/images/product_cashmere_overcoat_1790603713161.jpg"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "name": "Deep Charcoal",
+          "hex": "#1C1917"
+        },
+        {
+          "name": "Raw Sand",
+          "hex": "#E7E2D8"
+        }
+      ],
+      "inStock": true,
+      "stockCount": 15,
+      "featured": true,
+      "isNewArrival": false,
+      "materials": "100% High-Twist Tropical Wool",
+      "careInstructions": "Dry clean only. Press with damp cloth on reverse.",
+      "origin": "Tailored in Porto, Portugal",
+      "fit": "High-rise, relaxed wide leg falling smoothly through the brake.",
+      "rating": 4.9,
+      "reviewsCount": 11,
+      "reviews": [],
+      "createdAt": "2026-07-06T00:00:00Z"
+    },
+    {
+      "id": "prd_04",
+      "title": "Substantial 7-Gauge Ribbed Cashmere Turtleneck",
+      "slug": "7-gauge-ribbed-cashmere-turtleneck",
+      "subtitle": "Heavyweight Cashmere · Seamless Tubular Knitting",
+      "description": "Spun from two-ply 7-gauge cashmere yarn for profound warmth and unmatched softness against skin. Finished with elongated rib cuffs, folded mock collar, and dropped shoulders.",
+      "price": 495,
+      "category": "knitwear",
+      "images": [
+        "/src/assets/images/hero_vestra_editorial_1790603696949.jpg",
+        "/src/assets/images/product_cashmere_overcoat_1790603713161.jpg"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "colors": [
+        {
+          "name": "Alabaster White",
+          "hex": "#F5F5F0"
+        },
+        {
+          "name": "Espresso Bean",
+          "hex": "#3B2F2F"
+        },
+        {
+          "name": "Slate Gray",
+          "hex": "#64748B"
+        }
+      ],
+      "inStock": true,
+      "stockCount": 12,
+      "featured": true,
+      "isNewArrival": true,
+      "materials": "100% Grade-A Cashmere (380gsm)",
+      "careInstructions": "Hand wash cold with wool detergent. Dry flat on clean towel. Never wring.",
+      "origin": "Knitted in Umbria, Italy",
+      "fit": "Relaxed slouch through body with snug neckline.",
+      "rating": 5,
+      "reviewsCount": 8,
+      "reviews": [],
+      "createdAt": "2026-07-10T00:00:00Z"
+    },
+    {
+      "id": "prd_05",
+      "title": "Bonded Cotton Mac Coat",
+      "slug": "bonded-cotton-mac-coat",
+      "subtitle": "Water-Repellent Double Weave · Horn Toggle Closure",
+      "description": "Minimalist weather protection engineered from dense, double-bonded breathable cotton gabardine. Taped internal seams prevent moisture penetration while maintaining an architectural boxy drape.",
+      "price": 720,
+      "category": "outerwear",
+      "images": [
+        "/src/assets/images/product_cashmere_overcoat_1790603713161.jpg",
+        "/src/assets/images/product_minimalist_suit_1790603724383.jpg"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "name": "British Olive",
+          "hex": "#4B5320"
+        },
+        {
+          "name": "Ink Navy",
+          "hex": "#0F172A"
+        }
+      ],
+      "inStock": true,
+      "stockCount": 14,
+      "featured": false,
+      "isNewArrival": false,
+      "materials": "100% Water-Resistant Cotton Gabardine",
+      "careInstructions": "Specialist clean only.",
+      "origin": "Manchester, England",
+      "fit": "Straight, mid-thigh length silhouette.",
+      "rating": 4.7,
+      "reviewsCount": 6,
+      "reviews": [],
+      "createdAt": "2026-07-12T00:00:00Z"
+    },
+    {
+      "id": "prd_06",
+      "title": "Compact Egyptian Poplin Oversized Shirt",
+      "slug": "compact-egyptian-poplin-oversized-shirt",
+      "subtitle": "120/2 Giza Cotton · Mother of Pearl Buttons",
+      "description": "Woven from extra-long staple Egyptian Giza cotton with a crisp paper-touch hand feel. Features a French placket, pointed structured collar, curved stepped hem, and iridescent Australian mother-of-pearl buttons.",
+      "price": 260,
+      "category": "essentials",
+      "images": [
+        "/src/assets/images/product_minimalist_suit_1790603724383.jpg",
+        "/src/assets/images/hero_vestra_editorial_1790603696949.jpg"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "name": "Crisp Optical White",
+          "hex": "#FFFFFF"
+        },
+        {
+          "name": "Sky Stripe",
+          "hex": "#BAE6FD"
+        }
+      ],
+      "inStock": true,
+      "stockCount": 30,
+      "featured": true,
+      "isNewArrival": false,
+      "materials": "100% Giza 87 Egyptian Cotton",
+      "careInstructions": "Machine wash 30°C gentle cycle. Warm iron damp.",
+      "origin": "Bergamo, Italy",
+      "fit": "Relaxed oversized fit with lengthened sleeves.",
+      "rating": 4.9,
+      "reviewsCount": 19,
+      "reviews": [],
+      "createdAt": "2026-07-14T00:00:00Z"
+    },
+    {
+      "id": "prd_07",
+      "title": "300gsm Heavyweight Combed Cotton T-Shirt",
+      "slug": "heavyweight-combed-cotton-tshirt",
+      "subtitle": "Ring-Spun Organic Cotton · Bound Ribbed Collar",
+      "description": "The definitive luxury tee. Substantial 300gsm single jersey that holds its sculptural boxy shape through dozens of washes. Pre-shrunk, double-needle stitched hem, and zero exterior branding.",
+      "price": 110,
+      "category": "essentials",
+      "images": [
+        "/src/assets/images/product_cashmere_overcoat_1790603713161.jpg",
+        "/src/assets/images/product_minimalist_suit_1790603724383.jpg"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "name": "Raw Chalk",
+          "hex": "#F5F5F4"
+        },
+        {
+          "name": "Washed Black",
+          "hex": "#27272A"
+        },
+        {
+          "name": "Mineral Sage",
+          "hex": "#94A3B8"
+        }
+      ],
+      "inStock": true,
+      "stockCount": 45,
+      "featured": false,
+      "isNewArrival": false,
+      "materials": "100% GOTS-Certified Organic Cotton",
+      "careInstructions": "Machine wash cold with like colors. Line dry recommended.",
+      "origin": "Barcelos, Portugal",
+      "fit": "Modern boxy fit with slightly dropped shoulders.",
+      "rating": 4.8,
+      "reviewsCount": 32,
+      "reviews": [],
+      "createdAt": "2026-07-16T00:00:00Z"
+    },
+    {
+      "id": "prd_08",
+      "title": "Full-Grain Bridle Leather Atelier Belt",
+      "slug": "full-grain-bridle-leather-atelier-belt",
+      "subtitle": "English Bridle Leather · Solid Brushed Brass Hardware",
+      "description": "Cut from vegetable-tanned 3.5mm thick English bridle leather. Edges hand-beveled, burnished with beeswax, and mounted with an understated matte brushed brass buckle.",
+      "price": 195,
+      "category": "accessories",
+      "images": [
+        "/src/assets/images/product_minimalist_suit_1790603724383.jpg",
+        "/src/assets/images/product_cashmere_overcoat_1790603713161.jpg"
+      ],
+      "sizes": [
+        "80cm / 30\"",
+        "85cm / 32\"",
+        "90cm / 34\"",
+        "95cm / 36\""
+      ],
+      "colors": [
+        {
+          "name": "Dark Chestnut",
+          "hex": "#4A2E18"
+        },
+        {
+          "name": "Ebony Black",
+          "hex": "#18181B"
+        }
+      ],
+      "inStock": true,
+      "stockCount": 16,
+      "featured": false,
+      "isNewArrival": false,
+      "materials": "100% English Vegetable-Tanned Bridle Leather",
+      "careInstructions": "Treat periodically with natural beeswax leather balm.",
+      "origin": "Walsall, United Kingdom",
+      "fit": "30mm width. Standard 5-hole adjustment.",
+      "rating": 4.9,
+      "reviewsCount": 7,
+      "reviews": [],
+      "createdAt": "2026-07-18T00:00:00Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": "cat_outerwear",
+      "name": "Outerwear",
+      "slug": "outerwear",
+      "description": "Sculptural topcoats, raw wool trench coats, and cold-weather cloaks tailored with noble fibers.",
+      "image": "/src/assets/images/product_cashmere_overcoat_1790603713161.jpg",
+      "itemCount": 4
+    },
+    {
+      "id": "cat_tailoring",
+      "name": "Tailoring",
+      "slug": "tailoring",
+      "description": "Unstructured jackets, wide-leg wool trousers, and architectural suiting with hand-finished lapels.",
+      "image": "/src/assets/images/product_minimalist_suit_1790603724383.jpg",
+      "itemCount": 4
+    },
+    {
+      "id": "cat_knitwear",
+      "name": "Knitwear",
+      "slug": "knitwear",
+      "description": "Heavyweight ribbed merino turtlenecks and gauge cashmere cardigans spun in northern Italy.",
+      "image": "/src/assets/images/hero_vestra_editorial_1790603696949.jpg",
+      "itemCount": 3
+    },
+    {
+      "id": "cat_essentials",
+      "name": "Essentials",
+      "slug": "essentials",
+      "description": "Compact-spun organic poplin shirts, heavyweight 300gsm jersey tees, and fluid viscose base layers.",
+      "image": "/src/assets/images/product_minimalist_suit_1790603724383.jpg",
+      "itemCount": 3
+    },
+    {
+      "id": "cat_accessories",
+      "name": "Accessories",
+      "slug": "accessories",
+      "description": "Full-grain calfskin leather belts, hand-rolled mulberry silk scarves, and raw canvas weekender bags.",
+      "image": "/src/assets/images/product_cashmere_overcoat_1790603713161.jpg",
+      "itemCount": 2
+    }
+  ],
+  "orders": [
+    {
+      "id": "ord_1082",
+      "userId": "usr_demo_1",
+      "customerName": "Julian Sterling",
+      "customerEmail": "customer@vestra.com",
+      "shippingAddress": {
+        "street": "128 Mercer Street, Apt 4B",
+        "city": "New York",
+        "state": "NY",
+        "postalCode": "10012",
+        "country": "United States",
+        "phone": "+1 (555) 234-5678"
+      },
+      "items": [
+        {
+          "productId": "prd_01",
+          "title": "Double-Breasted Cashmere Trench",
+          "price": 890,
+          "quantity": 1,
+          "selectedSize": "M",
+          "selectedColor": "Camel Tan",
+          "image": "/src/assets/images/product_cashmere_overcoat_1790603713161.jpg"
+        }
+      ],
+      "subtotal": 890,
+      "shippingFee": 0,
+      "discount": 0,
+      "tax": 71.2,
+      "total": 961.2,
+      "status": "Shipped",
+      "paymentMethod": "credit_card",
+      "paymentStatus": "paid",
+      "trackingNumber": "VSTR-98234-NY",
+      "createdAt": "2026-09-24T14:29:54.856Z",
+      "updatedAt": "2026-09-26T14:29:54.856Z"
+    }
+  ],
+  "media": [
+    {
+      "id": "med_01",
+      "filename": "product_cashmere_overcoat_1790603713161.jpg",
+      "originalName": "Cashmere-Trench-Hero.jpg",
+      "mimeType": "image/jpeg",
+      "size": 421000,
+      "url": "/src/assets/images/product_cashmere_overcoat_1790603713161.jpg",
+      "uploadedAt": "2026-09-28T14:29:54.856Z"
+    },
+    {
+      "id": "med_02",
+      "filename": "product_minimalist_suit_1790603724383.jpg",
+      "originalName": "Minimalist-Suit-Look.jpg",
+      "mimeType": "image/jpeg",
+      "size": 389000,
+      "url": "/src/assets/images/product_minimalist_suit_1790603724383.jpg",
+      "uploadedAt": "2026-09-28T14:29:54.856Z"
+    }
+  ]
+}
